@@ -63,4 +63,95 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.main {
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	padding:20px;
+	justify-content: flex-end;
+	
+}
+.navlinks {
+	display: flex;
+	flex-wrap: wrap;
+}
+.navlinks li{
+	display: flex;
+	padding: 20px;
+	margin-bottom: auto;
+	margin-top:auto;
+	margin-left:10px;
+	margin-right:10px;
+}
+.navlinks a {
+	text-decoration: none;
+	color: grey;
+}
+.row-one {
+	display:flex;
+	flex-flow:row;
+}
+.full-column {
+	margin: auto;
+}
+.row-two {
+	display: flex;
+	margin: 20px;
+	padding-bottom: 20px;
+}
+.row-three {
+    display: flex;
+    justify-content: center;
+	flex-wrap: wrap;
+}
+.call-out {
+	background-color: #eeeeee;
+	padding: 20px;
+	margin: 15px;
+	width:46%;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+.learn-button {
+	border: 1px solid black;
+	width: 100px;
+	text-align: center;
+	padding: 5px;
+	margin-top: 15px;
+	background-color:white;
+}
+.row-four {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.column-half {
+	padding: 10px 0px 10px 0px;
+	margin: 15px;
+	width:46%;
+	box-sizing: border-box;
+
+}
+.column-half ;.services-info-img{
+	margin: auto;
+}
+.row-four ul {
+	padding:20px;
+	list-style-type: disc;
+}
+.row-four li {
+	margin: 10px 0px 10px 0px;
+}
+.services-info-img {
+	margin-left:28px;
+}
+.row-five {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
